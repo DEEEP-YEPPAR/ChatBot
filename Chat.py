@@ -1,7 +1,5 @@
 ## Work of image and text for query
 
-
-
 import streamlit as st
 import fitz  # PyMuPDF
 import io
