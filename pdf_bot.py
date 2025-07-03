@@ -112,7 +112,7 @@ def main():
         if st.button("Clear Session"):
             st.session_state.processed_data = None
             st.session_state.messages = []
-            st.experimental_rerun()
+            st.rerun()
     
     if uploaded_file and not st.session_state.processed_data:
         if not Config.GROQ_API_KEY:
